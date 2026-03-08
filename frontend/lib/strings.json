@@ -1,0 +1,174 @@
+{
+  "brand": {
+    "name": "Agent Forge",
+    "tagline": "AI Agent Platform",
+    "description": "The premier platform for AI agents and automation tools"
+  },
+  "hero": {
+    "badge": "AI Agent Platform",
+    "title": "Discover Premium AI Agents",
+    "subtitle": "Built by Experts",
+    "description": "Access cutting-edge AI agents, automation tools, and intelligent solutions from verified developers worldwide",
+    "ctaPrimary": "Browse AI Agents",
+    "ctaSecondary": "List Your Agent"
+  },
+  "sections": {
+    "featured": {
+      "title": "Featured AI Agents",
+      "subtitle": "Top-rated agents trusted by thousands",
+      "emptyState": "No agents available yet. Be the first to list!",
+      "viewAll": "View All Agents"
+    },
+    "whyChoose": {
+      "title": "Why Choose Agent Forge",
+      "subtitle": "The trusted platform for AI solutions"
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Join thousands of developers and businesses using AI agents",
+      "button": "Get Started Free"
+    }
+  },
+  "nav": {
+    "explore": "Explore",
+    "login": "Login",
+    "signup": "Sign Up",
+    "dashboard": "Dashboard"
+  },
+  "features": [
+    {
+      "icon": "🤖",
+      "title": "Verified Agents",
+      "description": "All agents are tested and verified by our expert team before listing"
+    },
+    {
+      "icon": "💳",
+      "title": "Secure Payments",
+      "description": "Enterprise-grade security with instant payouts to sellers"
+    },
+    {
+      "icon": "⚡",
+      "title": "Instant Deployment",
+      "description": "One-click deployment with comprehensive documentation"
+    }
+  ],
+  "footer": {
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "home": "Home",
+    "explore": "Explore",
+    "becomeSeller": "Become a Seller",
+    "email": "support@agentforge.ai",
+    "phone": "+1 (555) 123-4567",
+    "copyright": "© 2024 Agent Forge. All rights reserved."
+  },
+  "seller": {
+    "title": "Start Selling Your AI Agents",
+    "subtitle": "Join thousands of developers earning revenue from their AI solutions",
+    "steps": [
+      {
+        "title": "Complete Your Profile",
+        "description": "Fill in your details and connect your payment account"
+      },
+      {
+        "title": "List Your Agents",
+        "description": "Upload your AI agents with descriptions and pricing"
+      },
+      {
+        "title": "Start Earning",
+        "description": "Get paid instantly when customers purchase your agents"
+      }
+    ],
+    "formTitle": "Seller Information",
+    "fields": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "country": "Country",
+      "company": "Company Name",
+      "paymentProvider": "Payment Provider"
+    },
+    "note": "You'll receive 90% of each sale. We charge a 10% platform fee to maintain and improve our services.",
+    "submit": "Complete Onboarding"
+  },
+  "marketplace": {
+    "title": "AI Agent Store",
+    "backToHome": "← Back to Home",
+    "searchPlaceholder": "Search agents...",
+    "allCategories": "All Categories",
+    "emptyState": "No AI agents available yet",
+    "addToCart": "Add to Cart"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "total": "Total:",
+    "checkout": "Proceed to Checkout"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "fields": {
+      "name": "Full Name",
+      "email": "Email",
+      "cardNumber": "Card Number",
+      "expiry": "Expiry Date",
+      "cvv": "CVV"
+    },
+    "submit": "Complete Payment",
+    "success": "Payment successful! Check your email for confirmation."
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Login to your account",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Login",
+      "googleButton": "Login with Google",
+      "switchToSignup": "Don't have an account?",
+      "signupLink": "Sign up"
+    },
+    "signup": {
+      "title": "Create Account",
+      "subtitle": "Join the AI marketplace",
+      "name": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Create Account",
+      "googleButton": "Sign up with Google",
+      "switchToLogin": "Already have an account?",
+      "loginLink": "Login"
+    }
+  },
+  "chatbot": {
+    "title": "Help & Support",
+    "faqTitle": "Frequently Asked Questions",
+    "contactButton": "Contact Us",
+    "backToFaq": "← Back to FAQ",
+    "contactForm": {
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "success": "Message sent! We will respond within 24 hours."
+    },
+    "faqs": [
+      {
+        "question": "How do I buy an AI agent?",
+        "answer": "Browse the marketplace, select an agent, and click Buy Now to complete your purchase."
+      },
+      {
+        "question": "How do I become a seller?",
+        "answer": "Click 'Become a Seller' and complete the onboarding process with your payment details."
+      },
+      {
+        "question": "What payment methods are accepted?",
+        "answer": "We accept all major credit cards through Stripe, PayPal, and Razorpay."
+      },
+      {
+        "question": "How do refunds work?",
+        "answer": "Contact the seller within 7 days for refund requests. We mediate disputes fairly."
+      }
+    ]
+  }
+}
