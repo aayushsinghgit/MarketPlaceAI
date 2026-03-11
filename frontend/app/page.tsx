@@ -1,7 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import dynamic from 'next/dynamic'
 import LoginModal from '@/components/LoginModal'
 import SignupModal from '@/components/SignupModal'
 import MarketplaceModal from '@/components/MarketplaceModal'
@@ -19,8 +18,6 @@ import { API_URL, FEATURES } from '@/lib/constants'
 import { getAuthStatus } from '@/lib/utils'
 import strings from '@/lib/strings.json'
 import { useRouter } from 'next/navigation'
-
-const Spline = dynamic(() => import('@splinetool/react-spline'), { ssr: false })
 
 export default function Home() {
   const router = useRouter()
@@ -84,14 +81,9 @@ export default function Home() {
           <h2 className="text-6xl font-bold mb-6 bg-gradient-to-r from-white via-blue-300 to-accent bg-clip-text text-transparent">
             {strings.hero.title}<br/>{strings.hero.subtitle}
           </h2>
-          <p className="text-xl text-gray mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-gray mb-12 max-w-2xl mx-auto">
             {strings.hero.description}
           </p>
-
-          <div className="w-full max-w-3xl mx-auto h-[500px] mb-8">
-            <Spline scene="https://prod.spline.design/9B0bSxFEVYYXeoor/scene.splinecode" />
-          </div>
-
           <div className="flex gap-4 justify-center">
             <Button onClick={() => toggleModal('marketplace')}>{strings.hero.ctaPrimary}</Button>
             <Button variant="outline" onClick={() => toggleModal('onboarding')}>{strings.hero.ctaSecondary}</Button>
